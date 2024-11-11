@@ -6,3 +6,6 @@ edition = "2021"
 [dependencies]
 rand = "0.8.5"
 piston_window = "0.132.0"
+
+[target.your-target-triple]
+linker = "ll"
